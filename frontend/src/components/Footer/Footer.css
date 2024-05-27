@@ -17,6 +17,16 @@
     gap: 80px;
 }
 
+.xyz{
+    width: 230px;
+    margin-top: -90px;
+    margin-left: -20px
+}
+
+.footer-content-left p{
+    margin-top: -90px;
+}
+
 .footer-content-left, .footer-content-right, .footer-content-center{
     display: flex;
     flex-direction: column;

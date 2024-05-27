@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer' id='footer'>
         <div className="footer-content">
             <div className="footer-content-left">
-                <img src={assets.logo} alt="" />
+                <img className="xyz" src={assets.logo} alt="" />
                 <p>A simple and efficient food ordering website that allows users to browse menus, place orders, and get their
                 favorite meals delivered. Built with a user-friendly interface and seamless integration for a smooth ordering experience.</p>
                 <div className="footer-social-icon">
