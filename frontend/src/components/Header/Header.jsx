@@ -9,7 +9,7 @@ const Header = () => {
             <p>Choose from a diverse menu featuring a delectable array <br/>of dishes crafted with the finest
                ingredients and culinary <br/>expertise.  Our mission is to satisfy your cravings and elevate <br/> your
                dining experience, one delicious meal at a time.</p>
-               <button>View Menu</button>
+               <button>Menu list</button>
         </div>
     </div>
   )

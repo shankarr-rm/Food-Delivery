@@ -28,19 +28,19 @@
 .navbar button{
     background: transparent;
     font-size: 17px;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 20px;
+    border: none; 
+    border-radius: 15px;
     cursor: pointer;
     transition: 0.3s;
-    width: 110px;
+    width: 130px;
     height: 44px;
-    background-color:rgba(71, 183, 121, 0.81);
+    background-color: rgba(92, 201, 141, 0.81);
+
 }
 
 .navbar button:hover{
-    background-color: #fff4f2;
-
+    background-color: #ffffff;
+    border:3px solid rgba(50, 126, 84, 0.849);
 }
 
 .navbar .active{
@@ -69,6 +69,10 @@
 }
 
 @media (max-width:1050px){
+    .navbar{
+        margin-top: -40px ;
+        margin-bottom: 25px;
+    }
     .navbar .logo{
         width: 140px;
     }
@@ -110,5 +114,11 @@
 @media (max-width:750px){
     .navbar-menu{
         display: none;
+    }
+    .navbar-right button{
+        margin: 14px 5px;
+        height: 27px;
+        width: 85px;
+        font-size: 12px;
     }
 }

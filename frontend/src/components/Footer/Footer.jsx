@@ -31,13 +31,13 @@ const Footer = () => {
                 <h2>GET IN TOUCH</h2>
                 <ul>
                     <li>+94-77-490-5464</li>
-                    <li>contact@tomato.com</li>
+                    <li>info@shaneats.com</li>
                 </ul>
             </div>
         </div>
         <hr/>
         <p className="footer-copyright">
-            Copyright 2024 © Tomato.com - All rights Reserved.
+        © 2024 SHAN EATS. All Rights Reserved. | <a href="/terms-of-use">Terms of Use</a> | <a href="/privacy-policy">Privacy Policy</a>
         </p>
     </div>
   )
